@@ -10,9 +10,4 @@ terraform {
 provider "azurerm" {
   features {}
 }
-module "RG" {
-  source  = "app.terraform.io/terraformdemoprivate/RG/azurerm"
-  version = "1.0.0"
-  name = "demotferg"
-  location = "eastus"
-}
+
